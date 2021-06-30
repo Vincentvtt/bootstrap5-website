@@ -14,6 +14,20 @@ p {
     color: #8f8f8f;
 }
 
+/* Title CSS */
+
+#title {
+    background-color: #ff4c68;
+}
+
+#brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Features CSS */
+
 .container-fluid {
     padding: 3% 15%;
 }
@@ -41,7 +55,7 @@ p {
 }
 
 .icon-text {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
@@ -50,12 +64,39 @@ p {
     padding: 5%
 }
 
-#title {
-    background-color: #ff4c68;
+
+/* Testimonials CSS */
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
-#brand {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2.5rem;
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+}
+
+.press-icons {
+    margin: 1.5rem 2rem 2rem 1.5rem;
+    width: 15%;
+}
+
+.carousel-item {
+    padding: 3% 7%;
+    margin-bottom: 1.5rem;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    color: #fff;
+}
+
+#press {
+    text-align: center;
+    padding: 3% 7%;
+    background-color: #ef8172; 
 }
