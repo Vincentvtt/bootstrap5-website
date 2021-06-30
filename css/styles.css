@@ -26,17 +26,41 @@ p {
     font-weight: bold;
 }
 
-/* Features CSS */
-
-.container-fluid {
-    padding: 3% 15%;
+.title-container {
+    padding: 7% 15% 5%;
 }
 
 .title-img {
-    width: 60%;
+    width: 20%;
     transform: rotate(20deg);
     padding: 3rem 1rem 1rem;
-    margin-left: 5rem;
+    right: 20%;
+    position: absolute;
+}
+
+@media (max-width: 990px){
+
+    #title {
+        text-align: center;
+    }
+    
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+        margin-left: 0;
+    }
+}
+
+/* Features CSS */
+
+#features {
+    background-color: white;
+    position: relative;
+}
+
+.container-fluid {
+    padding: 2% 15%;
 }
 
 .icon {
@@ -51,7 +75,6 @@ p {
 
 .icon-row {
     text-align: center;
-    padding: 5%;
 }
 
 .icon-text {
@@ -85,7 +108,7 @@ h2 {
 }
 
 .carousel-item {
-    padding: 3% 7%;
+    padding: 7% 15%;
     margin-bottom: 1.5rem;
 }
 
@@ -99,7 +122,7 @@ h2 {
 
 #press {
     text-align: center;
-    padding: 3% 7%;
+    padding: 2% 15%;
     background-color: #ef8172; 
 }
 
@@ -116,5 +139,33 @@ h2 {
 
 #pricing {
     text-align: center;
-    padding: 3% 7%;
+    padding: 7% 15%;
+}
+
+/* Call to action CSS */
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    color: #fff;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/* Footer CSS */
+
+#footer {
+    text-align: center;
+    padding: 2% 15%;
+    background-color: #fff;
+}
+
+.social-media-icon {
+    padding: 1%;
 }
