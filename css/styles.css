@@ -68,6 +68,8 @@ p {
 /* Testimonials CSS */
 
 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     font-size: 3rem;
     line-height: 1.5;
 }
@@ -99,4 +101,20 @@ h2 {
     text-align: center;
     padding: 3% 7%;
     background-color: #ef8172; 
+}
+
+/* Pricing CSS */
+
+.card {
+    height: auto;
+    /* margin: 1.5rem 2rem 2rem 1.5rem; */
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+#pricing {
+    text-align: center;
+    padding: 3% 7%;
 }
