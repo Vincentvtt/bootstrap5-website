@@ -60,20 +60,6 @@ p {
     position: absolute;
 }
 
-@media (max-width: 990px){
-
-    #title {
-        text-align: center;
-    }
-    
-    .title-img {
-        position: static;
-        transform: rotate(0);
-        width: 50%;
-        margin-left: 0;
-    }
-}
-
 /* Features CSS */
 
 #features {
@@ -100,4 +86,23 @@ p {
 .press-icons {
     margin: 1.5rem;
     width: 15%;
+}
+
+@media (max-width: 990px){
+
+    #title {
+        text-align: center;
+    }
+    
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+        margin-left: 0;
+    }
+
+    .press-icons {
+        margin: 1.5rem;
+        width: 30%;
+    }
 }
